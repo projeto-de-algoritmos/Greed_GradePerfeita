@@ -16,6 +16,12 @@ A aplicação consiste em um site em que é possível inserir uma série de disc
 
 ## Screenshots
 
+![image](https://user-images.githubusercontent.com/61520601/132272879-e28f14e1-e6da-4d7c-a07c-cda3a06520ae.png)
+
+![image](https://user-images.githubusercontent.com/61520601/132272924-ed85889a-d8b1-481c-9fc8-d85626bd7630.png)
+
+![image](https://user-images.githubusercontent.com/61520601/132273149-533a9073-e0ff-45c0-858f-dd21ec572545.png)
+
 
 ## Instalação 
 **Linguagem**: JavaScript<br>
