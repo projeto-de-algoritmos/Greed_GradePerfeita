@@ -1,0 +1,41 @@
+.Sidebar {
+  width: 25vw;
+  min-width: 280px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar_inputs {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subject_name {
+  width: 100%;
+  margin: 15px 0px !important;
+}
+
+.schedule {
+  width: 100%;
+}
+
+.priority {
+  width: 100%;
+  margin: 15px 0px !important;
+}
+
+.contentButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  margin: 15px 0px !important;
+}
