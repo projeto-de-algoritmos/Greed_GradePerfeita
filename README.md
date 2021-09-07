@@ -53,8 +53,6 @@ Após a inicialização do site, é possível enxergar uma série de campos na l
   - O horário de acordo com o SIGAA (padrões como 26M34)
   - A sua prioridade para cursar a matéria (1 é a prioridade máxima e 5 é a prioridade mínima)
 
-Caso você queira, é possívei retirar matérias da sua lista de disciplinas antes de montar a visualização da grade.
-
 Quando tudo estiver devidamente preenchido, é só clicar em "Criar Grade" para que o Grade Perfeita possa montar a grade do seu semestre.
 
 

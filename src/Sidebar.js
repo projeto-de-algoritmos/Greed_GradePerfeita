@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./sidebar.css";
 import Button from "@material-ui/core/Button";
 import TextField from "@material-ui/core/TextField";
 import Select from "@material-ui/core/Select";
@@ -8,15 +7,13 @@ import InputLabel from "@material-ui/core/InputLabel";
 import FormControl from "@material-ui/core/FormControl";
 import Collapse from "@material-ui/core/Collapse";
 import { Alert } from "@material-ui/lab";
+import "./sidebar.css";
 
-import { useSubjects } from "./context/subjects";
-
-function Sidebar() {
+function Sidebar({ subjects, setSubjects }) {
   const [schedule, setSchedule] = useState();
   const [subjectsName, setSubjectsName] = useState();
   const [priority, setPriority] = useState();
   const [alert, setAlert] = useState(false);
-  const { subjects, setSubjects } = useSubjects();
 
   const priorityBase = [1, 2, 3, 4, 5];
 

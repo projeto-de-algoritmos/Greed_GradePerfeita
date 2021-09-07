@@ -1,18 +1,16 @@
+import { useState } from "react";
 import Sidebar from "./Sidebar";
 import Grid from "./Grid";
-import Infobar from "./Infobar";
-import SubjectsProvider from "./context/subjects";
 import "./app.css";
 
 function App() {
+  const [subjects, setSubjects] = useState([[], [], [], [], []]);
+
   return (
-    <SubjectsProvider>
-      <div className="App">
-        <Sidebar />
-        <Grid />
-        <Infobar />
-      </div>
-    </SubjectsProvider>
+    <div className="App">
+      <Sidebar subjects={subjects} setSubjects={setSubjects} />
+      <Grid subjects={subjects} />
+    </div>
   );
 }
 
